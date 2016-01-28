@@ -4,7 +4,7 @@ let canvasUtil = {
     },
     blurClear: function(ctx) {
         // this.clear(ctx);
-        ctx.fillStyle = 'rgba(0,0,0,0.01)';
+        ctx.fillStyle = 'rgba(0,0,0,' + config.canvasBlurRate + ')';
         ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     }
 };
