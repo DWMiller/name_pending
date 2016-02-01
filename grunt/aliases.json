@@ -1,0 +1,10 @@
+{
+  "build": [
+    "sass",
+    "concat",
+    "copy",
+    "babel"
+  ],
+  "default": "build"
+}
+
